@@ -1,0 +1,169 @@
+@media (max-width: 450px) {
+    .portafolio-row img {
+        width: 100%;
+    }
+    .portafolio-row {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .p-port1 {
+        margin-left: 1rem;
+        width: 100%;
+    }
+    .p-port2 {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .schooling-card {
+        justify-content: space-between;
+    }
+    .schooling-img {
+        border-radius: 3rem;
+    }
+    .left {
+        margin-left: 4rem;
+    }
+    .right {
+        margin-right: 8rem;
+    }
+    .row1 {
+        justify-content: center;
+        margin-right: 4rem;
+    }
+    .contact-h2 {
+        margin-right: 2.5rem;
+    }
+
+    .p-port1 {
+        margin-left: 1rem;
+        width: 100%;
+    }
+    .p-port2 {
+        margin-top: 1rem;
+    }
+    .h2-port {
+        text-align: center;
+    }
+    .p-portt {
+        margin-bottom: 0.9rem;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    #nav li {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+    #nav {
+        display: block;
+        text-align: right;
+        background-color: transparent;
+        position: static;
+    }
+    nav button{
+        display: none;
+    }
+}
+
+@media (max-width: 874px) {
+    .schooling-card {
+        white-space: nowrap;
+    }
+    .p-port2 {
+        margin-top: 1rem;
+    } 
+    .h2-port {
+        text-align: center;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    #nav li {
+        margin-left: 3rem;
+    }
+    
+
+}
+
+@media (max-width: 768px) {
+    .row1 {
+        justify-content: center;
+        margin-right: 1rem;
+    }
+    .schooling-card {
+        justify-content: space-between;
+    }
+    .schooling-img {
+        border-radius: 3rem;
+}
+.left {
+    margin-right: 5rem;
+}
+.right {
+    margin-left: 1rem;
+}
+.p-port1 {
+    margin-left: 1rem;
+    width: 100%;
+} 
+.p-port2 {
+    margin-top: 1rem;
+} 
+.portafolio-row {
+    flex-wrap: wrap;
+}
+#portafolio {
+    margin-left: 0;
+    
+}
+.p-portt {
+    margin-bottom: 0.9rem;
+}
+
+} 
+
+@media (min-width: 992px) {
+    #nav li {
+        margin-left: 3rem;
+    }
+    .portafolio-row {
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    .p-portt {
+        margin-bottom: 0.9rem;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .p-port2 {
+        margin-top: 1rem;
+    } 
+    .portafolio-row {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .p-portt {
+        margin-bottom: 0.9rem;
+    }
+    .portafolio-row img {
+        width: 100%;
+    } 
+}
+
+@media (max-width: 1200px) {
+    .p-portt {
+        margin-bottom: 0.9rem;
+    }
+    .portafolio-row {
+        justify-content: space-around;
+    }
+    .portafolio-row img {
+        width: 100%;
+    } 
+}
