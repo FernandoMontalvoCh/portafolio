@@ -1,4 +1,4 @@
-@media (min-width: 390px) {
+/* @media (min-width: 390px) {
     .portafolio-row img {
         width: 100%;
     }
@@ -18,7 +18,7 @@
         height: auto;
     } 
 
-}
+} */
 
 @media (max-width: 575px) {
     .schooling-card {
@@ -182,7 +182,7 @@
     .h2-port {
         padding-bottom: 2rem;
         font-size: 2em;
-        margin-left: 1rem;
+        margin-left: 0;
     }
     #nav li {
         display: block;
@@ -275,7 +275,7 @@
 
 } 
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     #nav li {
         margin-left: 3rem;
     }
@@ -287,7 +287,7 @@
         margin-bottom: 0.9rem;
     }
 
-}
+} */
 
 @media (max-width: 992px) {
     .p-port2 {
