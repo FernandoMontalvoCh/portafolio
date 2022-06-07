@@ -95,7 +95,7 @@
         position: relative;
         bottom: 40px;
     }
-    .contactme {
+/*     .contactme {
         padding: 0.5rem 4rem;
         background-color: #BE7BEF;
         border: none;
@@ -110,7 +110,7 @@
         position: relative;
         top: 300px;
         margin-bottom: 0;
-    }
+    } */
     .parrafo-2 {
         font-size: 0.9em;
     }
@@ -165,7 +165,8 @@
         /* padding-right: 0px; */
         margin-top: 10px;
         align-items: center;
-        justify-content: left;
+        justify-content: center;        /* ojo */
+        margin-left: 1.5rem;
     }
     .Himage1 {
         display: inline-block;
@@ -175,7 +176,7 @@
     }
     .col-6 {
         width: 50%;
-        padding: 1rem;
+        padding: 0.1rem;
         box-sizing: border-box;
     }
     .h2-port {

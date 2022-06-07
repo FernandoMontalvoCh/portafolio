@@ -68,111 +68,112 @@ nav button:hover {
 }
 
 /* MAIN */
-.container {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: 8.3rem;
-    margin-right: 10.1rem;
-    margin-top: 5rem;
-    gap: 10rem;
-}
-.titulo-1 {
-    flex-direction: column;
-}
-.container1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 6rem;
-}
-.container2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 6rem;
-    gap: 2rem;
-} 
-.contenedor-texto {
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-/* .main {
-    margin: 0 auto;
-    width: 80vw;
-    height: 80vh;
+.main {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 300px 400px;
     align-items: center;
-}  */
-
-.home-h1 {
+    grid-template-rows: 1fr;
+    max-width: 90%;
+    margin: auto;
+    justify-content: center;
+    column-gap: 12rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}.home-h1 {
     font-size: 4em;
-    padding-bottom: 2rem;
-}
-
-.home-p {
+    margin-top: -4rem;
+}.home-p {
     font-size: 1.5rem;
-}
-
-span {
-    color: #BE7BEF;
-}
-
-.contactme {
+}span {
+    color: #BE7BEF
+;
+}.contactme {
     padding: 0.5rem 4rem;
     background-color: #BE7BEF;
+    width: 80%;
     border: none;
     color: white;
     text-align: center;
     margin-top: 2rem;
     cursor: pointer;
-}
-
-.email-contact {
+}.email-contact {
     height: 1.2rem;
     width: 1.2rem;
     align-items: center;
     padding-top: 0.4rem;
-}
-
-.home-img {
-    width: 18rem;
+}.home-img {
     height: 22rem;
-}
-
-.exp-home {
-    margin-bottom: 6rem;
+}.exp-home {
     margin-left: 1rem;
     font-size: 1.2rem;
-}
-
-.p5 {
+}.p5 {
     padding-top: 1rem;
     color: grey;
-    font-size: 1.5em;
-}
-
-.redes {
+}.redes {
     padding-top: 1rem;
     display: flex;
-    justify-content: space-around;
-}
-
-.boton-peq {
+    justify-content: space-between;
+}.boton-peq {
     background-color: #BE7BEF;
     border-radius: 1rem;
-    height: 2.3rem;
-    width: 2.3rem;
+    height: 2rem;
+    width: 1.7rem;
     border: 0;
 }
-
-.parrafo-2 {
-    font-size: 1.5em;
+.info {
+    display: flex;
 }
-
+.boton {
+    grid-row: 2/3;
+    margin-top: -140px;
+}
+.exp-home {
+    width: 60%;
+}
+@media(max-width: 768px) {
+    .main {
+        margin: 2rem 2rem;
+        grid-template-columns: unset;
+        grid-template-rows: 1fr 1fr 70px;
+        width: 90%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .home-img {
+        height: 17.5rem;
+        grid-row: 2/3;
+    }
+    .boton {
+        grid-row: 3/4;
+        text-align: center;
+        margin-top: unset;
+    }
+    .home-h1 {
+        margin: 0;
+    }
+    .info-home {
+        width: 23rem;
+    }
+    .info {
+        width: 23rem;
+    }
+    .contactme {
+        width: 70%;
+    }
+}
+@media (max-width: 920px) {
+    .main {
+        column-gap: 6rem;
+        margin-bottom: 2rem;
+        padding-left: 0;
+    }
+    
+}
+@media (max-width : 830px) {
+    .main {
+        padding-left: 0;
+    }
+}
 /* Experiencia y habilidades*/
 .text {
     font-size: 2em;
