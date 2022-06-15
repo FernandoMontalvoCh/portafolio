@@ -229,6 +229,18 @@
     }
     
 }
+@media (min-width: 710px) {
+    .Himage1 {
+        display: inline-block;
+        width: 25%;
+        margin-right: 0;
+        text-align: center;
+        padding: 0 0.5rem;
+        min-height: 10rem;
+
+    }
+
+}
 
 @media (min-width: 992px) {
     #nav li {
